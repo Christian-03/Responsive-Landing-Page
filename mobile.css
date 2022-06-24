@@ -1,6 +1,183 @@
-@media screen and (max-width: 1444px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 375px){
     body{
         background-color: white;
     color: black;
     }
+}
+section{
+    background-image: url(bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    margin-bottom: 4em;
+    padding: 2em 3em;
+}
+.huddle img{
+    width: 6em;
+}
+.try{
+    top: 32px;
+    right: 45px;
+    border: 2em;
+    width: 80px;
+    border-radius:25px;
+    padding:4px;
+    text-align:center;
+    color:black;
+    background-color:white;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0 0.3em #5555;
+    font-weight: 300;
+    font: 0.7em sans-serif;
+    font-weight: bold;
+}
+.info{
+    display: inline-block;
+    margin-top: 2em;
+    align-items: center;
+    font-family:'Poppins';
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+.build{
+    padding-right: 0.5em;
+    padding-bottom: 2.5em;
+    text-align: center;
+}
+.build h1{
+    margin-bottom: 0.5cm;
+    font-weight: 700;
+    font: 2em sans-serif;
+    font-weight: bold;
+}
+.build h5{
+    margin-bottom: 0.2cm;
+}
+.build button{
+    left: 6.5em;
+}
+#mock{
+    width:18em;
+    margin: 1.4em 0em;
+}
+.words{
+    padding: 0em;
+    margin: 1em;
+}
+.words h1{
+    margin-bottom: 0.4cm;
+}
+.wordz{
+    padding: 0;
+}
+.wordz h1{
+    margin-bottom: 0.4cm;
+    margin-right: 1em;
+}
+#imagez{
+    width: 120%;
+}
+.col1{
+    background-color: white;
+    margin: 2em 2em;
+    box-shadow: 0 0.3em 1.2em #5555;
+    display: inline-block;
+    border-radius: 10px;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 300px;
+}
+.col2{
+    background-color: white;
+    margin: 2em 2em;
+    box-shadow: 0 0.3em 1.2em #5555;
+    display: inline-block;
+    border-radius: 10px;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 300px;
+}
+.col3{
+    background-color: white;
+    margin: 2em 2em;
+    box-shadow: 0 0.3em 1.2em #5555;
+    display: inline-block;
+    border-radius: 10px;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 16em;
+}
+.col4{
+    background-color: white;
+    box-shadow: 0 0.3em 1.2em #5555;
+    border-radius: 10px;
+    position: absolute;
+    padding: 3.5em;
+    left: -7em;
+    bottom: -152em;
+    margin: 12em;
+}
+.col4 h1{
+    font-weight: 400;
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+.col4 button{
+    margin: 0em -3em;
+    width: 180px;
+    padding: 8px;
+}
+#images{
+    width: 120%;
+}
+button{
+    border: 2em;
+    width: 200px;
+    border-radius:25px;
+    padding:15px;
+    text-align:center;
+    color:white;
+    background-color:hsl(322, 100%, 66%);
+    cursor: pointer;
+    position: absolute;
+    right: 4em;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    padding: 2em;
+    color: white;
+}
+.footer{
+    display: inline-block; 
+    margin: 1em 0em;
+}
+.footer h5{
+    margin-bottom: 1em;
+}
+.copy{
+    text-align: center;
+    margin: 1.5em 0em;
+}
+a{
+    margin-left: 0em;
+}
+.lorem img{
+    margin-right: 1em;
+}
+.huddles img{
+    width: 12em; 
+    margin: 5em 0em 1em 0em;
+}
+.socials{
+    margin-top: 2em;
+    margin-inline: 7em;
+}
+.socials img{
+    margin-right: 0.2em;
+    width: 28%;
+    color: white;
 }
